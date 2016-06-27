@@ -1,19 +1,55 @@
+<!--Author: Devina Kumar-->
+<!--CS 52: Short Assignment 1-->
 <!DOCTYPE html>
 <html>
   <head>
     <title>devinakumar.me</title>
   </head>
   <style>
+    body {
+      /*code from http://www.w3schools.com/cssref/pr_background-image.asp */
+      background-image: url(https://upload.wikimedia.org/wikipedia/commons/2/2f/Space_Needle002.jpg);
+      background-color: #cccccc;
+      background-size: cover;
+    }
+    /*ul/li navigation bar code from http://www.w3schools.com/css/tryit.asp?filename=trycss_navbar_horizontal_float_advanced*/
+    ul {
+      list-style-type: none;
+      text-align: center;
+      margin: 0;
+      padding: 0;
+    }
+    li {
+      display: inline;
+    }
+    h1 {
+      text-align: center;
+      color: #FFFFFF;
+      font-family: Times New Roman;
+      font-weight: lighter;
+      font-style: oblique;
+      font-size: 4vw; /* viewport code from https://css-tricks.com/viewport-sized-typography/*/
+    }
     p {
       color: red;
       text-align: center;
     }
+    a {
+      color: #FFFFFF;
+      text-decoration: none;
+      font-family: Times New Roman;
+      font-size: 1.8vw;
+      padding: 0 20px;
+    }
   </style>
   <body>
     <h1>Devina's Webpage</h1>
-
-    <p>
-      <a href="devinakumar.me/about">About</a>
-    </p>
+    <!--horizontal navigation bar links-->
+    <ul>
+      <li><a href="devinakumar.me/about">About</a></li>
+      <li><a href="devinakumar.me/schedule">Schedule</a></li>
+      <li><a href="devinakumar.me/misc">Miscellaneous</a></li>
+      <li><a href="devinakumar.me/contactme">Contact Me</a></li>
+    </ul>
   </body>
 </html>
